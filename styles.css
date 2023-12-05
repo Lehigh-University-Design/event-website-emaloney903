@@ -26,5 +26,263 @@ p, h1, h2, h3, h4, h5, h6 {
 /* ——————————— YOUR CSS STARTS BELOW HERE ——————————— */
 
 body {
-  background-color: peachpuff;
+  background-color: #344A40;
+}
+.logo{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 68px 200px 68px 700px
+}
+.column {
+  float: left;
+  width: 33.33%;
+text-align: center;
+}
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+.subhead{
+	text-align: center;
+}
+.tickets{
+	text-align: center;
+	margin-left: 44%;
+}
+.food{
+	text-align: right;
+}
+.button-right{
+	display: block;
+	margin-right: 0;
+	margin-left: auto;
+}
+.column1{
+	background-color: #162B22;
+	float: left;
+  width: 33.33%;
+text-align: center;
+	border-radius: 200px 200px 0px 0px;
+	height: 500px;
+}
+.column2{
+	float: left;
+  width: 33.33%;
+text-align: center;
+	background-color: #1E1D23;
+	border-radius: 200px 200px 0px 0px;
+	height: 500px;
+}
+ul{
+	list-style-type: none;
+	font-family: "Alfarn";
+}
+h2{
+	font-family: "Alfarn";
+}
+h3{
+	font-family: "Alfarn"
+}
+p{
+	font-family: "Anybody";
+}
+.lodging{
+	background-color: #DFDBAA;
+	padding: 170px 300px 100px 300px;
+}
+.artist{
+	color: white;
+	margin-bottom: 25px;
+}
+.rectangle{
+	background-color: #344A40;
+	height: 50px;
+	width: 100%
+}
+.parking{
+	background-color: white;
+	width: 10%
+}
+.food{
+	background-color: white;
+	width: 16%;
+	margin-left: 84%;
+}
+.path{
+	z-index: -1
+}
+.border-right{ 
+	border-solid: 10px;
+	border-color: #5F82C8;
+	text-align: right;
+}
+.border-left{
+	text-align: left;
+	border-solid: 10px;
+	border-color: #5F82C8;
+}
+.textbox-left{
+	background-color: white;
+	border-solid: 10px;
+	border-color: #5F82C8;
+	width: 40%;
+	text-align: left;
+}
+.textbox-right{
+	background-color: white;
+	border-solid: 10px;
+	width: 40%;
+	margin-left: 60%;
+}
+.floattext{
+	border-solid: 10px;
+	border-color: #5F82C8;
+	width: 50%;
+	text-align: center;
+	color: white;
+	margin-left: 6%;
+	margin-top: -12%
+}
+.floattext2{
+	color: white;
+	width: 50%;
+	text-align: left;
+	margin-left: 10%;
+}
+.floattext3{
+	text-align: right;
+	color: white;
+	margin-left: 20%;
+	margin-top: -7%;
+	margin-right: 4%;
+}
+.li1{
+	color: #DFDBAA;
+}
+.li2{
+	color: #A9C1F0;
+}
+.li3{
+	color:#D74A4B;
+}
+.li4{
+	color: #7282D2;
+}
+p{
+	font-family: 'Lucida Grande', 'Lucida Sans Unicode', 'Lucida Sans', 'DejaVu Sans', Verdana, 'sans-serif'
+}
+.circlepic{
+	position: relative;
+	width: 200px;
+	height: 200px;
+	border-radius: 50%;
+	overflow: hidden;
+}
+.tree{
+	width: 12%
+}
+.ellipse{
+	
+	width: 1100px;
+	height: 400px;
+	border-radius: 50%;
+	margin: auto;
+	background:
+	radial-gradient(circle at 100% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent),
+	radial-gradient(circle at 0% 50%, transparent 20%, rgba(255,255,255,.3) 21%, rgba(255,255,255,.3) 34%, transparent 35%, transparent) 0 -50px;
+	background-color: #5D6C8B;
+	background-size:75px 100px;
+	/*This background image is from https://projects.verou.me/css3patterns/#waves*/
+}
+.canoe{
+	width: 30%;
+	height: 30%;
+	margin-top: -20%;
+	margin-left: 30%;
+}
+.flag{
+	width: 40%;
+	height: 40%;
+	margin-left: -2%
+}
+.waterfront{
+	width: 30%;
+	height: 50%;
+	margin-left: 65%;
+	margin-bottom: -20%;
+}
+.heading{
+	width: 100%;
+	height: auto;
+}
+.subhead2{
+	margin-top: -160px;
+}
+.white{
+	background-color: white;
+}
+.lodge13{
+	background-color: #A33435;
+}
+.lodge2{
+	background-color: #5F82C8;
+}
+.lodgetitle{
+	text-align: center;
+}
+.forest{
+	width:100%;
+	height: auto;
+}
+.path{
+	display: flex;
+	width: 100%;
+	height: auto;
+}
+.path2{
+	height: auto;
+	width: 100%
+}
+.group1{
+}
+.background-road{
+	background-image: url("Group 44.png");
+	width: 100%;
+	height: 100%;
+}
+.background-road2{
+	background-image: url("Group 45.png");
+	width: 100%;
+	height: 100%;
+}
+.rectangle2{
+	background-color: transparent;
+	height: 500px;
+}
+.rectangle3{
+	background-color: transparent;
+	height: 700px;
+}
+.rectangle4{
+	background-color: transparent;
+	height: 250px;
+}
+.rectangle5{
+	background-color: transparent;
+	height: 300px;
+}
+.rectangle6{
+	background-color: transparent;
+	height: 1000px;
+}
+.forest2{
+	margin-top: -15%;
+}
+.date{
+	color: white;
+	font-family: "Alfarn";
+}
+.safety{
 }
